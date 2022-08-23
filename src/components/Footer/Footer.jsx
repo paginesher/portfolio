@@ -6,7 +6,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="f-content">
-        <span>paginesher@gmail.com</span>
+        <span>paginesher@gmail.com |
+          phone: (704)775-2973 | all rights reserved Ⓒ 2022
+        </span>
         <div className="f-icons">
     
           <Gitub color="white" size={"3rem"} />

@@ -23,7 +23,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>PJ Her</span>
           <span>
-          I'm currently a coding apprentice with Road to Hire where I am learning full stack wed development such as HTML , CSS , JS ,REACT , SQL and more. Road to Hire is a non profit organization that focuses on helping young minorities in the tech field. ** working on , need to add more.**
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
        
           </span>
         </div>
@@ -32,7 +32,7 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
+          <img src={Github} alt=""   />
           <img src={LinkedIn} alt="" />
        
         </div>

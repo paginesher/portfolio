@@ -1800,10 +1800,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emailjs/browser@npm:^3.4.0":
-  version: 3.4.0
-  resolution: "@emailjs/browser@npm:3.4.0"
-  checksum: d0d4640965a587360c1e83efe39abb457776881bc9274c2e1b6b64a20dfe3e4ecd9bb11b4fc84dc3b6289554235855e0c72a641e21b18ef65cf1db03985b2397
+"@emailjs/browser@npm:^3.6.2":
+  version: 3.6.2
+  resolution: "@emailjs/browser@npm:3.6.2"
+  checksum: 605deffac6b09789a417e68093fc105906a1e75c046cda5de457ea00b0d8a75c1796f2c3ae17362c134669fb54f8a3731a78ca6fdac0bf8a78c2abcea2cb20c0
   languageName: node
   linkType: hard
 
@@ -5333,6 +5333,18 @@ __metadata:
   version: 1.4.84
   resolution: "electron-to-chromium@npm:1.4.84"
   checksum: f38c3694465705f698094f3228c81237d00da9baba627a4b258195a2c136f30f1204cb4a651f870e05aeed71e0f77069c124554b2ee15372e06c275e0b24978d
+  languageName: node
+  linkType: hard
+
+"emailjs@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "emailjs@npm:4.0.1"
+  peerDependencies:
+    typescript: ">=4.3.5"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: ea03a36fd069574591ed14f6cdaacf114ce2542a36eeca9bb3f76920fb6f80a48d41612dca2b342268d0e35294712cfaae2b9a26ea2c1fc28e82b85bf85bc8af
   languageName: node
   linkType: hard
 
@@ -9232,11 +9244,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "portofolio@workspace:."
   dependencies:
-    "@emailjs/browser": ^3.4.0
+    "@emailjs/browser": ^3.6.2
     "@iconscout/react-unicons": ^1.1.6
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^12.0.0
     "@testing-library/user-event": ^13.2.1
+    emailjs: ^4.0.1
     framer-motion: ^6.2.8
     react: ^17.0.2
     react-dom: ^17.0.2
