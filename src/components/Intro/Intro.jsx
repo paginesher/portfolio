@@ -3,8 +3,8 @@ import "./Intro.css";
 
 
 import me from "../../img/me.png";
-import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
+// import Github from "../../img/github.png";
+// import LinkedIn from "../../img/linkedin.png";
 import { themeContext } from "../../Context";
 
 import { Link } from "react-scroll";
@@ -31,11 +31,11 @@ const Intro = () => {
  
         </Link>
         {/* social icons */}
-        <div className="i-icons">
+        {/* <div className="i-icons">
           <img src={Github} alt=""   />
           <img src={LinkedIn} alt="" />
        
-        </div>
+        </div> */}
       </div>
       {/* right image side */}
       <div className="i-right">

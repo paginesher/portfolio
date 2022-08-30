@@ -54,6 +54,10 @@
   flex: 1;
   position: relative;
 }
+.i-right > img {
+  width: 100%;
+
+}
 .i-right > * {
   position: absolute;
   z-index: 1;
