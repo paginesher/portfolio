@@ -20,11 +20,12 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey there! I Am</span>
           <span>PJ Her</span>
           <span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-       
+          I am a Full Stack Web Developer and UI/UX enthusiast. 
+       I may not have as much experience as others, but I believe that 
+       my enthusiasm and willingness to learn make me a great developer.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
